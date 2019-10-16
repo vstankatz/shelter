@@ -29,3 +29,36 @@ height: auto;
 h1 {
   text-align: center;
 }
+
+
+@media screen and (max-width: 1000px){
+  .col { float: none;
+    background-color: red;
+    color: white;
+  }
+
+  body {
+    background-color: red;
+    color: white;
+  }
+  .navi {
+    background-color: blue;
+  }
+}
+
+
+@media screen and  (max-width: 650px){
+  .col { float: none;
+    background-color: black;
+    color: white;
+
+  }
+
+  body {
+    background-color: black;
+    color: white;
+  }
+  .navi {
+width: auto;
+  }
+}
