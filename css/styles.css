@@ -1,9 +1,19 @@
 body {
   color: deepskyblue;
 
- background-image: url(https://i2-prod.mirror.co.uk/incoming/article13357278.ece/ALTERNATES/s1200b/0_Haunting-footage-of-Charles-Manson-giving-coded-message-to-his-cult-is-shown-for-first-time.jpg);
+  background-image: url(https://i2-prod.mirror.co.uk/incoming/article13357278.ece/ALTERNATES/s1200b/0_Haunting-footage-of-Charles-Manson-giving-coded-message-to-his-cult-is-shown-for-first-time.jpg);
+ display: inherit;
+ }
+
+img.background {
+  background-image: url(https://img.izismile.com/img/img6/20131126/640/25yearold_girl_wants_serial_killer_charles_manson_as_her_husband_640_07.jpg);
+  display: none;
 }
 
+img.background {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/MansonB33920_8-14-17_%28cropped%29.jpg/220px-MansonB33920_8-14-17_%28cropped%29.jpg);
+  display: none;
+}
 
 img.background {
   -webkit-filter: blur(35px); /* Safari */
@@ -47,6 +57,21 @@ h1 {
 }
 
 
+@media screen and (max-width: 1000px) {
+
+img.background {
+  background-image: url(https://img.izismile.com/img/img6/20131126/640/25yearold_girl_wants_serial_killer_charles_manson_as_her_husband_640_07.jpg);
+  display: inherit;
+
+  background-image: url(https://i2-prod.mirror.co.uk/incoming/article13357278.ece/ALTERNATES/s1200b/0_Haunting-footage-of-Charles-Manson-giving-coded-message-to-his-cult-is-shown-for-first-time.jpg);
+ display: none;
+ }
+}
+
+
+}
+}
+
 
 @media screen and (max-width: 500px) {
   body {
@@ -62,5 +87,9 @@ h1 {
 .navi {
   float: none;
   width: auto;
+}
+
+img.background {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/MansonB33920_8-14-17_%28cropped%29.jpg/220px-MansonB33920_8-14-17_%28cropped%29.jpg);
 }
 }
