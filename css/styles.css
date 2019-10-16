@@ -1,10 +1,22 @@
+body {
+  color: deepskyblue;
+
+ background-image: url(https://i2-prod.mirror.co.uk/incoming/article13357278.ece/ALTERNATES/s1200b/0_Haunting-footage-of-Charles-Manson-giving-coded-message-to-his-cult-is-shown-for-first-time.jpg);
+}
+
+
+img.background {
+  -webkit-filter: blur(35px); /* Safari */
+  filter: blur(35px);
+}
+
 .col {
   border: 4px blue;
   padding: 10px;
   float: left;
   width: 300px;
   border-style: ridge;
-  margin: 10px;
+  margin: 45px;
 
 }
 
@@ -20,15 +32,20 @@ max-width: 100%;
 height: auto;
 
 }
+h1 span {
+  font-style: italic;
+
+}
 
 .col span {
   font-weight: bold;
-  color: green;
+  color: yellow;
 }
 
 h1 {
   text-align: center;
 }
+
 
 
 @media screen and (max-width: 500px) {
